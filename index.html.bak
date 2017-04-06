@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- 标题部分 -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>闻泰自助使用平台</title>
+<base href="."><link rel="stylesheet" type="text/css" href="./index_files/style_8_common.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+</head>
+
+<!-- 顶栏部分 -->
+<div id="hd" style="border-bottom:1px solid #e5e5e5;background:#fff; width:100%;margin-bottom:10px;">
+<div class="wp">
+<div>
+<h2 align="center" style="padding:0px; margin:6px 0 0 0;">
+<a href="http://home.wingtech.com/" title="WINGTECH 主页">
+<img src="IMG/wingtechlogo600.png" alt="WINGTECH自助平台" width="217" height="54" border="0">
+</a></h2></div></div>
+</div>
+</div >
+
+<div id="scbar" class="scbar_narrow cl">
+<form action="/demo/welcome_get.php" method="get">
+&nbsp;&nbsp;用户名：<input type="text" name="usernameshow">&nbsp;&nbsp;密码：<input type="text" name="password"  autocomplete="off" style="ime-mode:disabled">&nbsp;&nbsp;<input type="submit" value="登 录" onClick="javascript:return gook();"/>
+</div>
+
+<div id="scbar" class="scbar_narrow cl">
+	<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($(&#39;scbar_txt&#39;))" action="https://www.itsk.com/search.php?searchsubmit=yes" target="_blank">
+	<table cellspacing="0" cellpadding="0">
+		<tbody>
+			<tr>
+				<td class="scbar_icon_td"></td>
+				<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech="" speech="" class=" xg1" placeholder="请输入搜索内容"></td>
+				<td class="scbar_type_td"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">站内搜索</a></td>
+				<td class="scbar_type_td"><a href="https://www.baidu.com/baidu" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">百度搜索</a></td>
+				<td class="scbar_type_td"><a href="https://www.sogou.com/web" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜狗搜索</a></td>
+				<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"><strong class="xi2">搜索</strong></button></td>
+					<td class="scbar_hot_td">
+						<div id="scbar_hot">
+							<strong class="xw1">热门搜索: </strong>
+							<a href="http://home.wingtech.com" target="_blank" class="xi2" sc="1">关键词1</a>
+							<a href="http://home.wingtech.com" target="_blank" class="xi2" sc="1">关键词2</a>
+						</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+  </form>
+</div>
+
+<div id="framez2L8Bx_left_temp" class="move-span temp"><span style="color:#D22222;margin:0 6px;">热门文章列表</span></div>
+
+
+<ul class="xl xl2 cl">
+</div></div></div></div></div></div></div><div id="frame46ht7g" class="cl_frame_bm frame move-span cl frame-3-1"><div id="frame46ht7g_left" class="column frame-3-1-l"><div id="frame46ht7g_left_temp" class="move-span temp"></div><div id="frame7gD457" class="cl_frame_bm frame move-span cl frame-1"><div id="frame7gD457_left" class="column frame-1-c"><div id="frame7gD457_left_temp" class="move-span temp"></div><div id="frameR6EpY1" class="cl_frame_bm frame move-span cl frame-1-3"><div id="frameR6EpY1_left" class="column frame-1-3-l"><div id="frame7YjGo5" class="cl_frame_bm frame move-span cl frame-1"><div id="frame7YjGo5_left" class="column frame-1-c"><div id="portal_block_373" class="block move-span"><div id="portal_block_373_content" class="dxb_bc"><div class="module cl xl" style=" border-bottom:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd;border-top:1px solid #ddd;width:210px; height:310px; background:#fff;">
+	<p style="display:block;width:100%; height:34px;margin-bottom:6px;">  
+	<span style="border-top:2px solid #336699; width:72px; height:34px; line-height:34px;display:block;font-size:14px;padding-left:10px;-left:10px;font-weight:bold; float:left;">天气预报</span>
+
+ <p style="height:15px;"></p>
+ <iframe name="sinaWeatherTool"   src="http://weather.news.sina.com.cn/chajian/iframe/weatherStyle2.html?city=%E4%B8%8A%E6%B5%B7" width="200" height="20" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>
+</div></div></div></div></div><div id="frame4n8bhS" class="cl_frame_bm frame move-span cl frame-1"><div id="frame4n8bhS_left" class="column frame-1-c"><div id="frame4n8bhS_left_temp" class="move-span temp"></div></div></div><div id="framep16bDo" class="cl_frame_bm frame move-span cl frame-1"><div id="framep16bDo_left" class="column frame-1-c"><div id="framep16bDo_left_temp" class="move-span temp"></div><div id="portal_block_369" class="block move-span"><div id="portal_block_369_content" class="dxb_bc"><div class="portal_block_summary"><div style="width:210px; height:215px;padding:0px;background:#fff;border:1px solid #ddd;">
+		<p style="display:block;width:100%; height:15px;margin-bottom:6px;"><a style="border-top:2px solid #336699; width:72px; height:30px; line-height:34px;display:block;font-size:15px;padding-left:10px;-left:10px;font-weight:bold;">关注微信</a></p>
+
+    <p>
+   <img src="./index_files/sk_trsd_wx.jpg" style="width:180px; height:180px;padding:5px 0px 5px 15px;">
+    	
+    </p>
+</div></div></div></div></div></div><div id="frame5L969I" class="cl_frame_bm frame move-span cl frame-1"><div id="frame5L969I_left" class="column frame-1-c"><div id="frame5L969I_left_temp" class="move-span temp"></div><div id="portal_block_366" class="block move-span"><div id="portal_block_366_content" class="dxb_bc"><div class="portal_block_summary"><div style="width:210px; height:289px; margin:0px; padding:0px;background:#fff;border:1px solid #ddd;">
+	<p style="display:block;width:100%; height:33px;margin-bottom:4px;"><a style="border-top:2px solid #336699; width:72px; height:34px; line-height:34px;display:block;font-size:14px;padding-left:10px;-left:10px;font-weight:bold;">技术区</a></p>
+	<ul>
+    	 ........
+    </ul>
+</div></div></div></div></div></div><div id="framecbqp8G" class="cl_frame_bm frame move-span cl frame-1"><div id="framecbqp8G_left" class="column frame-1-c"><div id="framecbqp8G_left_temp" class="move-span temp"></div></div></div></div><div id="frameR6EpY1_center" class="column frame-1-3-r"><div id="frameR6EpY1_center_temp" class="move-span temp"></div><div id="tabjuH4fX" class="xfs xfs_5 frame-tab move-span cl"><div id="tabjuH4fX_title" class="tab-title title column cl" switchtype="click"><ul class="tb cl"><li id="portal_block_375" class=""><a href="javascript:;" onclick="return false;" onfocus="this.blur();" style="float:;margin-left:px;font-size:;color:#000000 !important;;">最新文章</a></li></ul></div>
+<div id="tabjuH4fX_content" class="tb-c">
+<div id="portal_block_362_content" class="dxb_bc">
+<div class="module cl xld">
+<dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-374595-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/bb15808af0fce092595f0d4cccc9b1e8.jpg" width="280" height="175" alt="彻底解决WIN10封装后任务栏被强制重置的问题"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-374595-1-1.html" title="彻底解决WIN10封装后任务栏被强制重置的问题" target="_blank">彻底解决WIN10封装后任务栏被强制重置的问题</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#e88b11;" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=575" target="_blank">系统封装/硬件驱动</a></span><span style="margin-right:15px;"><a href="https://www.itsk.com/home.php?mod=space&amp;uid=804800&amp;do=thread&amp;view=me&amp;from=space" target="_blank" style="font-size:12px; color:#333;">小鱼儿yr</a></span><span style="font-size:10px; color:#999;">2017-03-07</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:27px; line-height:23px;">封装过WIN10的朋友都会遇到一个问题，就是封装完成后，安装系统后，之前在封装前设置好的任务栏会被强制重置出3个图标。这个问题封装WIN7也会有，不过WIN7只需要在封装前修改...</dd>
+</dl>
+<dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-365147-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/97f2373a945e5ff0be5ccfb1a9c50094.jpg" width="280" height="175" alt="讓Windows 7也能在100系列的主板中正常安裝"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-365147-1-1.html" title="讓Windows 7也能在100系列的主板中正常安裝" target="_blank">讓Windows 7也能在100系列的主板中正常安裝</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#e88b11;" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=552" target="_blank">知识库</a></span><span style="margin-right:15px;"><a href="https://www.itsk.com/home.php?mod=space&amp;uid=219211&amp;do=thread&amp;view=me&amp;from=space" target="_blank" style="font-size:12px; color:#333;">KDPA119</a></span><span style="font-size:10px; color:#999;">2016-03-28</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:27px; line-height:23px;">随著Intel的Skylake平台到来，随之而来的问题就是按照正常方式装不了Win7，Skylake相比早期的规划方案， 增加了对USB 3.1接口的支持，因此将不再支持原有的EHCI主控，变更为最新的...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-367716-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/7db760ced655cab8112df1f131ab8886.jpg" width="280" height="175" alt="优启通扩展管理器初体验——之添加网络组件"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-367716-1-1.html" title="优启通扩展管理器初体验——之添加网络组件" target="_blank">优启通扩展管理器初体验——之添加网络组件</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#e88b11;" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=552" target="_blank">知识库</a></span><span style="margin-right:15px;"><a href="https://www.itsk.com/home.php?mod=space&amp;uid=95544&amp;do=thread&amp;view=me&amp;from=space" target="_blank" style="font-size:12px; color:#333;">shc</a></span><span style="font-size:10px; color:#999;">2016-05-29</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:27px; line-height:23px;">作为U启界新秀，优启通横空出世未久便俾睨天下、所向披靡，这事想必大家都心知肚明了。简单自不待言，快捷毋庸多说，可扩展性无可言状，早在2.x时代，优启通已成为N多同类产品的模仿...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-362289-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/fa37581ced7e555696b9af86613f9b56.jpg" width="280" height="175" alt="手动 删除 Windows 10 内建程序 Apps"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-362289-1-1.html" title="手动 删除 Windows 10 内建程序 Apps" target="_blank">手动 删除 Windows 10 内建程序 Apps</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#e88b11;" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=552" target="_blank">知识库</a></span><span style="margin-right:15px;"><a href="https://www.itsk.com/home.php?mod=space&amp;uid=219211&amp;do=thread&amp;view=me&amp;from=space" target="_blank" style="font-size:12px; color:#333;">KDPA119</a></span><span style="font-size:10px; color:#999;">2016-01-08</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:27px; line-height:23px;">Windows 10 预设了大量应用软件 Apps，虽然其中不少都是非常实用，可是并非人人都爱用，而在「控制面板」内的「程序和功能」也未有提供默认应用程序 Apps 删除选项，除了少部分...</dd>
+
+
+</dl></div></div><div id="portal_block_361_content" class="dxb_bc" style="display: none;"><div class="module cl xld"><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375417-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/8df0638e867ffaa9fd1c6bba6af5d989.jpg" width="280" height="175" alt="万能驱动 v7.17.303.2 （2017.3.28 更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375417-1-1.html" title="万能驱动 v7.17.303.2 （2017.3.28 更新）" target="_blank">万能驱动 v7.17.303.2 （2017.3.28 更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-03-28</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">万能驱动（EasyDrv）是一款智能检测PC硬件并自动安装驱动程序的工具。用户界面简约友好，使用仅需一键。"万能"是一种态度，是我们将产品做得尽善尽美的理念，希望万能驱动助理能够通过不断完善，让用户切身感受到它的驱动安装方面的"无所不能"。</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375415-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/39a80e8963ce15a02f0aa8ba57c26876.jpg" width="280" height="175" alt="优启通 v3.3.2017.0313 （2017.3.28 更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375415-1-1.html" title="优启通 v3.3.2017.0313 （2017.3.28 更新）" target="_blank">优启通 v3.3.2017.0313 （2017.3.28 更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-03-28</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">优启通（EasyU），是IT天空为第一线装机工程师倾力打造的PE环境。于广泛兼容、稳定耐用、快速启动、体积小巧等多方面经过严格测试找到一个最为适中的平衡点。支持BIOS与UEFI双启动，重于易用性与人性化。</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-373708-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/bd48a9d1853a15ea19567207d6003d3b.jpg" width="280" height="175" alt="Easy Sysprep v4.5.31.611（2017.02.16更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-373708-1-1.html" title="Easy Sysprep v4.5.31.611（2017.02.16更新）" target="_blank">Easy Sysprep v4.5.31.611（2017.02.16更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-02-16</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">Easy Sysprep（ES）是一款用于 Windows 系统封装与部署的专业工具。Easy Sysprep 以微软sysprep.exe程序为核心，将微软官方封装部署理论与广大系统工程师、系统维护人员、系统爱好者的实践经验相结合，力求将复杂的 Windows 封装部署变得简单实用。
+</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-370236-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/a276c3ac8f7c897fc49237bf8c07b02a.jpg" width="280" height="175" alt="补丁安装助理 v3.15.2016.0813（2016.8.18更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-370236-1-1.html" title="补丁安装助理 v3.15.2016.0813（2016.8.18更新）" target="_blank">补丁安装助理 v3.15.2016.0813（2016.8.18更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=89807&amp;do=thread&amp;view=me&amp;from=space" target="_blank">gp2386</a></span><span style="font-size:10px; color:#999;">2016-08-18</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">经过两年多的沉淀，加上新技术的应用，补丁安装助理迎来了又一次重大更新。新版本补丁安装助理在软件UI上进行了重做，视觉交互更上了一个层次。新增补丁离线安装模式，现在可以在PE环境下直接给系统安装补丁啦！</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-365817-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/8fca39d9f55a904759e219a55e824627.jpg" width="280" height="175" alt="一键运行库 v1.9.2016.0412（2016.04.15更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-365817-1-1.html" title="一键运行库 v1.9.2016.0412（2016.04.15更新）" target="_blank">一键运行库 v1.9.2016.0412（2016.04.15更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=89807&amp;do=thread&amp;view=me&amp;from=space" target="_blank">gp2386</a></span><span style="font-size:10px; color:#999;">2016-04-15</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">一键运行库（简称GoRuntime）是IT天空出品的一款快捷安装系统常用运行库的工具。多种运行库一键安装，也可使用/S参数自动安装，方便您在不同环境下使用。定位：集成最新运行库、操作简单、安装快捷！</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-365331-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/e2e16c0438b9369634ed9ab208e44877.jpg" width="280" height="175" alt="SkyIAR v2.75 （2016.04.01更新）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-365331-1-1.html" title="SkyIAR v2.75 （2016.04.01更新）" target="_blank">SkyIAR v2.75 （2016.04.01更新）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2016-04-01</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">SkyIAR主要用于解决系统部署（系统安装）过程中，由于磁盘控制器IDE、AHCI、RAID工作模式所带来的系统部署困难问题。SkyIAR具备“自动检测”、“自动筛选”、“一键完成”等特性，将原本复杂的磁盘控制器驱动问题简化为“一键操作”。</dd>
+
+
+</dl></div></div><div id="portal_block_414_content" class="dxb_bc" style="display: none;"><div class="module cl xld"><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-373706-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/c3eb7ebf72e4fcc57437b1aedf7d0234.jpg" width="280" height="175" alt="银欣FT02，双路E5工作站"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-373706-1-1.html" title="银欣FT02，双路E5工作站" target="_blank">银欣FT02，双路E5工作站</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-02-16</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">好久没装机了，上次已经是一年半以前的事情了。最近的工作内容对整机稳定和数据安全要求越来越高，而Intel最近发疯一样的平台更新进度让人很不爽，Intel的更新进度越来越像国内某米了...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-374576-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/60a12e5daa5244fd083a835dd55b4620.jpg" width="280" height="175" alt="迟到的定制机箱小钢炮清理灰尘"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-374576-1-1.html" title="迟到的定制机箱小钢炮清理灰尘" target="_blank">迟到的定制机箱小钢炮清理灰尘</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=25480&amp;do=thread&amp;view=me&amp;from=space" target="_blank">microcoffee</a></span><span style="font-size:10px; color:#999;">2017-03-07</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">上一个晒硬件贴是在14年的时候写的，这都三年过去了，今天闲得无聊，把去年的机器拆开清理一下灰尘，顺手拍点照片分享一下。硬件配置：CPU：Intel i5 6600K；散热：猫头鹰 NH-U9S；...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-373707-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/704d87ad504939fa61b4714fe78a54cf.jpg" width="280" height="175" alt="乔思伯UMX1 Plus，小巧的家用综合主机"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-373707-1-1.html" title="乔思伯UMX1 Plus，小巧的家用综合主机" target="_blank">乔思伯UMX1 Plus，小巧的家用综合主机</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-02-16</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">家里2010年时的一台主机已经奋战了6年多，想换一台家用综合主机。2016年618时剁手症发作，从某东购买了一堆硬件，岂料之后太忙，一直拖到现在才把这台机器装起来。导致当时的流行款...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-374586-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/341428951090ffe50c324c8006917672.jpg" width="280" height="175" alt="樱桃MX6.0 青轴 机械键盘 开箱"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-374586-1-1.html" title="樱桃MX6.0 青轴 机械键盘 开箱" target="_blank">樱桃MX6.0 青轴 机械键盘 开箱</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2017-03-07</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">终于圆了个机械键盘梦，运到时外包装左上角磕碎了一点，好在不是箱子完整强迫症。青轴，击键很清脆，写程序比较喜欢这类手感和声音。键盘附有腕托，可组合、可分离，视个人习惯而定...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-347785-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/4c434573c8c4f67d130d080d11a3b237.jpg" width="280" height="175" alt="银欣FT03装机记（MATX结构小空间+静音+高性能）"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-347785-1-1.html" title="银欣FT03装机记（MATX结构小空间+静音+高性能）" target="_blank">银欣FT03装机记（MATX结构小空间+静音+高性能）</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=5&amp;do=thread&amp;view=me&amp;from=space" target="_blank">Skyfree</a></span><span style="font-size:10px; color:#999;">2015-03-20</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">之前使用联力Q18机箱挑战过ITX架构下的“小空间+高性能”的实现，不知大家是否还有印象？总结了上次装机过程中的一些经验，结合一些新想法，本次打算挑战一下MATX结构下“小空间+高性...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-286046-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/6a17c03f023ac7abd0bf731d59af1908.jpg" width="280" height="175" alt="挑战S大水冷，本坛最强水冷装备首秀，及制作过程！"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-286046-1-1.html" title="挑战S大水冷，本坛最强水冷装备首秀，及制作过程！" target="_blank">挑战S大水冷，本坛最强水冷装备首秀，及制作过程！</a></dt>
+     <dd><span style="margin-right:15px;"><a style=" font-size:12px; color:#333;" href="https://www.itsk.com/home.php?mod=space&amp;uid=25480&amp;do=thread&amp;view=me&amp;from=space" target="_blank">microcoffee</a></span><span style="font-size:10px; color:#999;">2013-08-03</span></dd>
+	<dd style=" font-size:13px; color:#666; text-indent:20px;line-height:23px;">其实在很多年前，在电脑城第一次看到牛逼的水冷的时候，心里就默默的想，那天我赚钱了一定要玩玩水冷，咋也装一次。。。可惜无奈，一直也没赚到钱，这次上水冷纯属意外，在论坛群里...</dd>
+
+
+</dl></div></div><div id="portal_block_370_content" class="dxb_bc" style="display: none;"><div class="module cl xl xl1 " style="margin-top:-10px;">
+<ul><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=32711" target="_blank">yuanlichun</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375734" title="自己封装了个6合一1的系统，加上一些软件做了个27G的ISO" target="_blank">自己封装了个6合一1的系统，加上一些软件做了个27G的ISO</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=32711" c="1" target="_blank" mid="card_3409"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(1).php" width="48" height="48" alt="yuanlichun"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+设置了从USB启动，只能进win10PE，2003pe怎么也进不去，ISO是UDF格式。知道的大大帮忙分析下原因。
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=589248" target="_blank">itbai</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375726" title="关闭/打开：Windows10右下角消息通知.注册表" target="_blank">关闭/打开：Windows10右下角消息通知.注册表</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=589248" c="1" target="_blank" mid="card_4778"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(2).php" width="48" height="48" alt="itbai"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+关闭：
+记事本，另存为：名称.reg，即可；
+
+打开：
+方法同上。
+或者您直接下载、附件：
+**** 本内容被作者隐藏 ****
+
+双击导入注册表，即可。
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=733229" target="_blank">mxy8898</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375725" title="XP系统驱动不能识别问题" target="_blank">XP系统驱动不能识别问题</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=733229" c="1" target="_blank" mid="card_3114"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(3).php" width="48" height="48" alt="mxy8898"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+WanDrv6_WinXP.x86_6.2.2014.1109
+WanDrv6_WinXP.x86_6.6.2016.0815
+2个驱动都提示这样的信息，没有适合的驱动。  XP系统为SP2  和 SP3都是32
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=731825" target="_blank">976190982</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375724" title="es4封装时选择了进入桌面询问是否建立宽带连接，封装后可以是改配置文件把他取消么" target="_blank">es4封装时选择了进入桌面询问是否建立宽带连接，封装后可以是改</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=731825" c="1" target="_blank" mid="card_5863"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(4).php" width="48" height="48" alt="976190982"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+es4封装时选择了进入桌面询问是否建立宽带连接，封装后可以是改配置文件把他取消么？怎么取，麻烦各位大大给个方案
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=738106" target="_blank">YOUKU550</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375721" title="封装后/安装完任务栏程序图标全部变成了微软自带的图标了" target="_blank">封装后/安装完任务栏程序图标全部变成了微软自带的图标了</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=738106" c="1" target="_blank" mid="card_5985"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(5).php" width="48" height="48" alt="YOUKU550"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+因是公司用win10，自己封装win10系统后，之前设置好的任务栏程序图标全部变成了微软自带的图标了，怎么可以解决！各位大神
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=632244" target="_blank">gjp0975</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375707" title="分享2款 win7简约_清爽的主题 给坛友使用" target="_blank">分享2款 win7简约_清爽的主题 给坛友使用</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=632244" c="1" target="_blank" mid="card_9770"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(6).php" width="48" height="48" alt="gjp0975"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+百度网盘的下载地址：http://pan.baidu.com/s/1hrFGhBe
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=413924" target="_blank">wuzhenjun</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375702" title="急急急，大神来看下。这是什么进程winhlpe32.exe" target="_blank">急急急，大神来看下。这是什么进程winhlpe32.exe</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=413924" c="1" target="_blank" mid="card_4918"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(7).php" width="48" height="48" alt="wuzhenjun"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+win10x64开机随机启动？是病毒吗    开机就在那里闪
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=809433" target="_blank">Jamesvsbond</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375700" title="哪种开机还原软件是无插件不会植入软件的" target="_blank">哪种开机还原软件是无插件不会植入软件的</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=809433" c="1" target="_blank" mid="card_1218"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(8).php" width="48" height="48" alt="Jamesvsbond"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+哪种开机还原软件是无插件不会植入软件的，求推荐
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=488047" target="_blank">woshifeng</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375699" title="G4560+1050ti用多大电源？" target="_blank">G4560+1050ti用多大电源？</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=488047" c="1" target="_blank" mid="card_3518"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(9).php" width="48" height="48" alt="woshifeng"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+如题？？？？？？
+如题？？？？？？
+如题？？？？？？
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=413924" target="_blank">wuzhenjun</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375698" title="win10启动状态栏启动显示一个程序winhlp32.exe这个是什么程序？" target="_blank">win10启动状态栏启动显示一个程序winhlp32.exe这个是什么程序？</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=413924" c="1" target="_blank" mid="card_4918"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(7).php" width="48" height="48" alt="wuzhenjun"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+这个是什么程序不是病毒吧，可以选着隐藏或退出但是每次都启动。图标是盾牌模样。
+ ...</p>
+         	
+         </div>
+	</li><li style="height:110px;width:580px;margin:0px auto;padding:0px;border-bottom:1px solid #ECECEC;">
+		<h2 style="width:100%;height:28px;margin: 0px;padding:10px 0 0 0;line-height:28px;font-size:15px;">
+        	<div class="zt"><em style="float:left;border-right:1px solid #CCC;margin-right:5px;padding-right:5px;font-weight:normal;"><a style="color:#0051A1;font-weight:bold;" href="https://www.itsk.com/home.php?mod=space&amp;uid=819144" target="_blank">wwbxr</a></em></div>
+			<a style="float:left;" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375697" title="win10封装" target="_blank">win10封装</a><div style="margin-right:20px;font-weight:normal;float:right;font-size:12px;"></div>
+         </h2>
+
+         <div style="margin:0px;padding:0px;height:72px;width:100%;">
+         <a style="height:60px;width:60px;float:left;margin-top:10px;margin-left:5px;" href="https://www.itsk.com/home.php?mod=space&amp;uid=819144" c="1" target="_blank" mid="card_6375"><img style="border-radius:50%;border:solid 1px #CCC;" src="./index_files/avatar(10).php" width="48" height="48" alt="wwbxr"></a>
+          <p style="height:60px;width:510px;line-height:21px;float:left;margin-left:5px;font-size:13px;margin-top:11px;text-indent:20px;">
+请问坛里大佬们，我物理机是双核4G内存，我给虚拟机分配单核2G内存，这样的环境可不可以用来封装win10？第一次学习系统封装。谢谢各位啦！
+ ...</p>
+         	
+         </div>
+	</li></ul>
+</div></div><div id="portal_block_375_content" class="dxb_bc" style="display: none;"><div class="module cl xld"><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375733-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/e843ded743f8aa7c013afb720d1baad3.jpg" width="280" height="175" alt="米粉节新品登场 米家全景相机正式发布"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375733-1-1.html" title="米粉节新品登场 米家全景相机正式发布" target="_blank">米粉节新品登场 米家全景相机正式发布</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　米粉节将至，除了热销产品降价促销外，众多新品的亮相也为本次米粉节增色不少。4月5日本次米粉节的压轴新品米家全景相机正式登场。与传统相机不同的是，米家全景相机打破了传统的拍摄方
+...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375732-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/91d3fedaba28292e370d14a8222b9543.jpg" width="280" height="175" alt="iPhone/三星/Nexus等手机的博通Wi-Fi芯片易被OTA攻击"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375732-1-1.html" title="iPhone/三星/Nexus等手机的博通Wi-Fi芯片易被OTA攻击" target="_blank">iPhone/三星/Nexus等手机的博通Wi-Fi芯片易</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　谷歌旗下 Project Zero 安全研究人员发现了一个与博通（Broadcom）Wi-Fi 芯片有关、复杂且令人不快的 Bug 。鉴于 Broadcom 为 iPhone、Nexus、三星等公司的多款设备供应 Wi-Fi 芯片，这一
+...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375731-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/0b036f51da02c11ad4a83737bd9a5740.jpg" width="280" height="175" alt="报告称短视频15秒以内最受欢迎 小米用户最爱看片"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375731-1-1.html" title="报告称短视频15秒以内最受欢迎 小米用户最爱看片" target="_blank">报告称短视频15秒以内最受欢迎 小米用户最</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　4月5日消息，当下在线娱乐，尤其是视频内容的消费已经成为中国网民最不可或缺的内容。迅雷近日推出的2016年度中国视频娱乐内容消费报告显示，80、90后仍是视频消费的主力，小米用户最爱看
+...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375719-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/a384b3b096180fcf17424298aae6570a.jpg" width="280" height="175" alt="小米平板3突然上市 售价1499元"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375719-1-1.html" title="小米平板3突然上市 售价1499元" target="_blank">小米平板3突然上市 售价1499元</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　4月5日，为了迎接米粉节的到来，小米公司推出了小米平板3,这款全金属机身工艺的新品搭载了MediaTek 高性能平板电脑处理器，最高主频2.1GHz 六核，配备7.9 英寸视网膜屏幕，1300万像素后置
+...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375718-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/8c901ab67f17622f6d74540fcde428b2.jpg" width="280" height="175" alt="微软提醒注意“客服支持式骗局” 建议更新微软产品应对"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375718-1-1.html" title="微软提醒注意“客服支持式骗局” 建议更新微软产品应对" target="_blank">微软提醒注意“客服支持式骗局” 建议更新</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　在互联网，各种钓鱼和恶意广告骗局日益增多，其中一种知名类型的骗局就是"客服支持式骗局（Tech Support Scam）",主要方式为诱使用户相信其电脑存在问题，并请求你跳转网页来"修复"电脑。
+...</dd>
+
+
+</dl><dl class="cl">
+	<dd class="m"><a href="https://www.itsk.com/thread-375716-1-1.html" target="_blank"><img style="border:1px solid #000;" src="./index_files/7891d29a16408761d4c015def584a9ba.jpg" width="280" height="175" alt="惠普新款Spectre x360开箱和初步上手"></a></dd>
+	<dt><a href="https://www.itsk.com/thread-375716-1-1.html" title="惠普新款Spectre x360开箱和初步上手" target="_blank">惠普新款Spectre x360开箱和初步上手</a></dt>
+     <dd><span style="margin-right:20px;"><a style=" font-size:12px; color:#e88b11;" class="itkfont" href="https://www.itsk.com/forum.php?mod=forumdisplay&amp;fid=526">IT资讯精选</a></span><span style="font-size:10px; color:#999;">2017-04-05</span></dd>
+	<dd style=" font-size:13px; color:#666; line-height:23px;">
+　　外媒NeoWin对2016年款Spectre x360笔记本的综合得分为9.5（总分为10分），这0.5分主要扣在没有手写笔支持以及没有超过1080P更高的分辨率。而2017年款Spectre x360笔记本则完全弥补了这方面
+...</dd>
+
+
+</dl></div></div></div><script type="text/javascript">initTab("tabjuH4fX","click");</script></div></div></div><div id="framemohGQ1" class=" frame move-span cl frame-1"></div></div></div></div><div id="frame46ht7g_center" class="column frame-3-1-r"><div id="frame46ht7g_center_temp" class="move-span temp"></div><div id="tabviD9n1" class="xfs xfs_5 frame-tab move-span cl"><div id="tabviD9n1_title" class="tab-title title column cl" switchtype="click"><ul class="tb cl"><li id="portal_block_371" class="a"><a href="javascript:;" onclick="return false;" onfocus="this.blur();" style="float:;margin-left:px;font-size:;color:#000000 !important;;">软件安装包</a></li></ul></div><div id="tabviD9n1_content" class="tb-c"><div id="portal_block_371_content" class="dxb_bc"><div class="module cl xld" style="margin-bottom:-10px;margin-top:-5px; margin-left:-4px;"><dl class="cl" style="">
+	<dd class="m" style="font-weight:bold;margin:0px 8px 3px 0;"><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=373712">深蓝迅捷，专业电脑维修服务商！</a></dd>
+	<dt><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=373712"><img style="border:1px solid #000;" src="./index_files/9b0d2e082a9769c3de1bd9ee90a1cb80.jpg" width="260" height="163"></a></dt>
+	<dd style="border-bottom:1px dashed #CDCDCD; padding-top:5px;padding-bottom:10px; font-size:13px;">提供专业、全面的电脑组装、维修及维护...</dd>
+</dl><dl class="cl" style="">
+	<dd class="m" style="font-weight:bold;margin:0px 8px 3px 0;"><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=373715">华鑫电脑，您身边的电脑服务专家！</a></dd>
+	<dt><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=373715"><img style="border:1px solid #000;" src="./index_files/78323e2621d0fe1a4999bebd57aa670d.jpg" width="260" height="163"></a></dt>
+	<dd style="border-bottom:1px dashed #CDCDCD; padding-top:5px;padding-bottom:10px; font-size:13px;">集电脑组装、电脑维护与维修、及电脑配...</dd>
+</dl><dl class="cl" style="">
+	<dd class="m" style="font-weight:bold;margin:0px 8px 3px 0;"><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375151">疾风电脑，技术精湛、快速高效！</a></dd>
+	<dt><a target="_blank" href="https://www.itsk.com/forum.php?mod=viewthread&amp;tid=375151"><img style="border:1px solid #000;" src="./index_files/5fec65fb73f1972923b086395d535a57.jpg" width="260" height="163"></a></dt>
+	<dd style="border-bottom:1px dashed #CDCDCD; padding-top:5px;padding-bottom:10px; font-size:13px;">集电脑组装与维修、笔记本销售、电脑配...</dd>
+</dl></div></div></div><script type="text/javascript">initTab("tabviD9n1","click");</script></div></div></div>
+
+
+
+<div style="width:100%;height:120px;background:#EDEDED;min-width:1200px;">
+	<div id="ft" class="wp cl" style="padding:20px 0; overflow:hidden; border:none;">
+	</div>
+</div>

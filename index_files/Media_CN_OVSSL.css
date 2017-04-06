@@ -1,0 +1,94 @@
+﻿        body, td, th
+        {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 12px;
+            line-height: 16px;
+            color: #3b3b3b;
+            padding: 0px;
+            margin: 0px;
+        }
+        div, ul, li, ol, dl, dd, dt, p
+        {
+            margin: 0;
+            padding: 0;
+        }
+        p
+        {
+            padding-bottom: 10px;
+        }
+        ul, li
+        {
+            list-style-type: none;
+        }
+        .xiaokuan
+        {
+            background: url(/images/xiaokuan_bg.jpg) no-repeat;
+            width: 250px;
+            height: 300px;
+            position: relative;
+        }
+        .xiaokuan a
+        {
+            color: #f00;
+        }
+        .xiaokuan a:hover
+        {
+            text-decoration: none;
+        }
+        .xiaokuan_img
+        {
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+        }
+        .zhongjian_p
+        {
+            width: 230px;
+            margin: 0 10px;
+            position: absolute;
+            top: 45px;
+        }
+        .zhongjian_p p
+        {
+            background: #fff;
+            border-bottom: 1px solid #d0d0d0;
+            padding: 6px 3px;
+            margin-top: 6px;
+        }
+        .zhongjian_p p strong
+        {
+            font-size: 12px;
+            display: block;
+        }
+        .zhongjian_p p label
+        {
+            color: #f00;
+            text-decoration: underline;
+        }
+        /*eng*/.zhongjian_eng
+        {
+            width: 230px;
+            margin: 0 10px;
+            position: absolute;
+            top: 45px;
+            font-size: 11px;
+        }
+        .zhongjian_eng p
+        {
+            letter-spacing: -1px;
+            background: #fff;
+            border-bottom: 1px solid #d0d0d0;
+            padding: 6px 3px;
+            margin-top: 6px;
+        }
+        .zhongjian_eng p strong
+        {
+            font-size: 12px;
+            display: block;
+        }
+        .zhongjian_eng p label
+        {
+            color: #f00;
+            font-size: 12px;
+            text-decoration: underline;
+        }
